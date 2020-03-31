@@ -1,0 +1,103 @@
+body
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+  font-size: 14px;
+}
+
+.menu
+{
+  list-style-type: none;
+  float: right;
+}
+
+li
+{
+  display: inline;
+}
+
+.menu button
+{
+  background: blue;
+  padding: 8px;
+  border-radius: 8px;
+  font-weight: bold;
+  color: white;
+}
+
+.main
+{
+  text-align: center;
+}
+.logo img
+{
+  width: 272px;
+  height: 92px;
+  margin-top: 10%;
+  margin-left: 20%;
+}
+
+.searchbar input
+{
+  margin-top: 3%;
+  height: 34px;
+  width: 400px;
+  border-radius: 50px;
+  box-shadow: 2px 2px 2px 2px grey;
+  border: none;
+}
+
+
+.btn
+{
+  margin-top: 3%;
+  opacity: 0.6;
+}
+
+.corona img
+{
+  width: 50px;
+  height: 50px;
+}
+
+#coronamessage
+{
+  color: blue;
+}
+
+.France
+{
+  text-align: left;
+  padding-left: 27px;
+  margin-top: 200px;
+  color: black;
+  background-color: #f2f2f2;
+  line-height: 40px
+}
+
+.footer
+{
+  display: flex;
+  justify-content: space-around;
+  color: black;
+  background-color: #f2f2f2;
+  line-height: 40px
+}
+
+.footer a:hover
+{
+  text-decoration: underline;
+}
+
+a
+{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover
+{
+  text-decoration: underline;
+}
